@@ -2,7 +2,7 @@
 
 define( 'API_ENDPOINT_CHANNELS', 'https://api.twitch.tv/kraken/channels/' );
 define( 'API_ENDPOINT_SEARCH_GAMES', 'https://api.twitch.tv/kraken/search/games?' );
-define( 'CHANNEL', 'cfkzockt' );
+define( 'CHANNEL', 'YOURCHANNEL' );
 
 
 $jsonChannelFile = @file_get_contents( API_ENDPOINT_CHANNELS.CHANNEL );
